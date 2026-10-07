@@ -1,16 +1,18 @@
-# Roast my CV 
+# Roast my CV
 
 Tu envoies ton CV en PDF, « Si Lamine », un recruteur tunisien sans filtre, le roaste en derja.
-Puis il redevient sérieux et te donne des conseils concrets pour l'améliorer, avec une note sur 10.
+Puis il redevient sérieux, tamponne une note sur 10 et te laisse un post-it avec ce qu'il faut corriger.
 
-Trois niveaux : **Chwaya** , **Normal** , **Bla r7ma** .
+Trois niveaux : **Chwaya**, **Normal**, **Bla r7ma**.
+
+![Aperçu de Roast my CV](docs/apercu.png)
 
 ## Stack
 
 - **FastAPI** pour l'API (`POST /api/roast`) et la page web
 - **pdfplumber** pour extraire le texte du CV
 - **Groq** (LLM) en mode JSON pour générer le roast, les conseils, la note et le verdict
-- Une seule page HTML / CSS / JS, sans framework
+- Une seule page HTML / CSS / JS, sans framework, avec les polices Public Sans et Patrick Hand (licence OFL) incluses dans `static/fonts`
 
 Aucune base de données : le CV est lu en mémoire puis oublié. L'e-mail et le numéro de téléphone
 sont masqués avant l'envoi au modèle.
@@ -27,6 +29,8 @@ uvicorn main:app --reload
 ```
 
 Ouvre http://localhost:8000.
+
+Pour voir la page de résultat sans clé API, ouvre http://localhost:8000/?demo (un exemple de roast écrit à la main).
 
 La clé API se crée gratuitement sur https://console.groq.com/keys.
 Le modèle se change avec `GROQ_MODEL` dans `.env` (liste à jour : https://console.groq.com/docs/models).

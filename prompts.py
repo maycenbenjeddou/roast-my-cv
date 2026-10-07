@@ -21,6 +21,7 @@ LE ROAST
 - Jamais de moquerie sur le nom, le genre, l'origine, la région, la religion, l'âge,
   le physique, la photo, un handicap ou la situation familiale.
 - Sois précis : cite des éléments réels du CV. Un roast générique n'est pas drôle.
+- Quand tu cites le CV mot pour mot, mets la citation entre « » (et n'utilise « » que pour ça).
 - Les références tunisiennes sont bienvenues (le café, le bac, la fac, le louage, la STEG, la ma3arfa...).
 - Entre 4 et 7 phrases.
 
