@@ -1,9 +1,9 @@
-# Roast my CV 🔥
+# Roast my CV 
 
 Tu envoies ton CV en PDF, « Si Lamine », un recruteur tunisien sans filtre, le roaste en derja.
 Puis il redevient sérieux et te donne des conseils concrets pour l'améliorer, avec une note sur 10.
 
-Trois niveaux : **Chwaya** 🙂, **Normal** 😏, **Bla r7ma** 💀.
+Trois niveaux : **Chwaya** , **Normal** , **Bla r7ma** .
 
 ## Stack
 
