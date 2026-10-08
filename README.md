@@ -5,8 +5,6 @@ Puis il redevient sérieux, tamponne une note sur 10 et te laisse un post-it ave
 
 Trois niveaux : **Chwaya**, **Normal**, **Bla r7ma**.
 
-![Aperçu de Roast my CV](docs/apercu.png)
-
 ## Stack
 
 - **FastAPI** pour l'API (`POST /api/roast`) et la page web
